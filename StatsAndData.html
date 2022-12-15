@@ -1,2 +1,53 @@
-# arijayee.github.io
-Project Website 
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <header class="w3-container"> 
+  <ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="StatsAndData.html">Statistics and Data</a></li>
+  <li><a href="results.html">Results</a></li>
+  </ul>
+ </header>
+  <body id=".container" style="background-color:rgb(156,175,136);font-family: Cambria;color:white;font-size: 20px;margin-left:0.2in;margin-right:0.5in;">
+    <p style="color:white;margin: 0.2in;font-size:30px;font-weight: 500;">Motivation For This Study </p>
+    <p style=margin: 1in;>
+     Climate Change or Global Warming can have detrimental impacts on the Earth. This information motivated my study to see what exactly is climate change impacting, and how are these impacts changing the Earth? To be more specific, Is there a positive, statistically significant, correlation between Global Warming and Natural Disasters that have occured in the years 2006-2015? 
+      
+    </p>
+    <p style="color:white;margin: 0.2in;font-size:30px;font-weight: 500;">Credibility </p>
+    <p>To answer this question, I started off by collecting data<br>from two csv's: "GlobalTemperatures.csv" (a dataset complied by the University of Columbia) and "number-of-Natural-disater-events.csv"(a dataset complied by the "Our World in Data" website). Considering that one csv is from a university and the other is used from a website widely used for data analysis, I can state that the data used for this project is credible.   </p>
+    <p style="color:white;margin: 0.2in;font-size:30px;font-weight: 500;"> Analysis </p>
+     <p>
+       To analyze the data collected, I used the highest average temperature of the land and ocean, and the number of natural disasters from 2006-2015.
+     </p> 
+    <img src="myCvs.png" class="centerImage" height="300" width="340">
+    <p>
+      To get a deep understanding of the relationship between the two variables I used a scatter plot as a visulation:
+    </p>
+    <img style="border-color: black;border-width:5px;margin: 0.5cm;"src="ScatterPlot.png" width="400" height="300">
+    <p style="color:white;margin: 0.2in;font-size:30px;font-weight: 500;"> Statistics Used </p>
+     <p>
+       The Pearson Correlation Coeffecient is used to measure linear correlation. I used this stat to further interpret the relationship between the Number of natural disasters and the Average Temperature of the Land and Ocean.
+     </p>
+      <img style= "border-color: black;border-width:5px;margin: 0.5cm;"src="personCorr.png" width="700" height="200">
+  </body>
+  <form action="results.html">
+            <button id="textButton">
+              View Results
+            </button>
+        </form>
+      <style>
+        #textButton{
+          background-color:white;
+          text-align: center;
+          font-size: 20px;
+          font-family: Cambria;
+          color:black
+
+        }
+      </style>
+  
+</html>
